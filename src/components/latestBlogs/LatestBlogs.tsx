@@ -2,10 +2,11 @@ import { Blog } from "@/types/inex";
 import React from "react";
 import LatestBlogCard from "../ui/LatestBlogCard";
 import BlogCard from "../ui/BlogCard";
+import Link from "next/link";
 
 const LatestBlogs = ({ blogs }: { blogs: Blog[] }) => {
   return (
-    <div>
+    <div className=" w-[90%] mx-auto">
       <h1 className="text-4xl text-center my-5">
         Latest blog from <span className="text-accent">Bloggiz</span>
       </h1>
@@ -15,16 +16,21 @@ const LatestBlogs = ({ blogs }: { blogs: Blog[] }) => {
           unprecedented computational power.
         </i>
       </p>
-      <div className="my-5 w-[90%] mx-auto">
+      <div className="">
         <div className="grid grid-cols-2 gap-4 my-5">
           {blogs.slice(0, 2).map((blog) => (
             <LatestBlogCard key={blog.id} blog={blog} />
           ))}
         </div>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-3 gap-4 my-5">
           {blogs.slice(2, 5).map((blog) => (
             <BlogCard key={blog.id} blog={blog} />
           ))}
+        </div>
+        <div className="my-10 text-center">
+          <Link href={"/blogs"}>
+            <button className="btn btn-accent text-white">All blogs</button>
+          </Link>
         </div>
       </div>
     </div>
