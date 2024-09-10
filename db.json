@@ -53,6 +53,24 @@
       "author_name": "Mehedi Imun Anik",
       "blog_image": "https://startnearshoring.com/wp-content/uploads/2023/07/The_Growing_Importance_of_Cybersecurity.jpg",
       "total_likes": "950"
+    },
+    {
+      "id": "7",
+      "title": "Digital Age",
+      "description": "Navigate the evolving landscape of cybersecurity and the critical role it plays in safeguarding digital assets. From advanced threat detection to ethical hacking, this blog examines the strategies and technologies shaping the future of online security.",
+      "publish_date": "2024-03-06",
+      "author_name": "Mehedi Imun Anik",
+      "blog_image": "https://startnearshoring.com/wp-content/uploads/2023/07/The_Growing_Importance_of_Cybersecurity.jpg",
+      "total_likes": "950"
+    },
+    {
+      "id": 8,
+      "title": "Football",
+      "description": "aba dfsafy  fasdf",
+      "publish_date": "2024-09-10",
+      "author_name": "Habib",
+      "blog_image": "https://images.pexels.com/photos/28220699/pexels-photo-28220699/free-photo-of-nguoitamchuyenhouse-sai-gon-vi-t-nam-2020-saigon-vietnam-2020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "total_likes": "100"
     }
   ]
 }
